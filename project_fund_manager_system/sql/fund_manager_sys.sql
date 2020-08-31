@@ -134,5 +134,5 @@ CREATE TABLE `yearTab`  (
   `allBalance` double(255, 0) DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
-
+INSERT INTO `user` VALUES (1, 'admin', '超级管理员', '3Nwr8SbLHcQ=', 2, 0, '', '[\'admin\']', NOW());
 SET FOREIGN_KEY_CHECKS = 1;
